@@ -2,8 +2,8 @@
  * Created by zhoulongfei on 2018/9/28.
  * E-mail:36995800@163.com
  */
-import {Observable, Subject, ReplaySubject, from, of, range, fromEvent, Unsubscribable} from 'rxjs';
-import {map, filter, switchMap, throttleTime, find, auditTime} from 'rxjs/operators';
+import {fromEvent, Unsubscribable} from 'rxjs';
+import {map, filter,auditTime} from 'rxjs/operators';
 
 let _ = require('lodash');
 let win: Window = window;

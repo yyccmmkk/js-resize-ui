@@ -26,7 +26,8 @@ let resize = new Resize({
         console.log('move');
     },
     end: function (ele:any, width:any, height:any, fontSize:any, ratioW:any, ratioH:any) {
-        console.log('ele:W:H',ele);
+        //ele 当前操作元素，ratioW 宽度的缩放比例，ratioH 高度缩放比例
+        console.log(ele,width,height,fontSize,ratioW,ratioH);
 
 
     }
